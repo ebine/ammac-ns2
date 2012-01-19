@@ -1,0 +1,18 @@
+ ./ns mmac-test4.tcl 1 > m4.txt && awk -f genstats.awk origmac.tr >> multi.txt
+rm -f m4.txt origmac.tr
+ ./ns mmac-test4.tcl .2 > m4.txt && awk -f genstats.awk origmac.tr >> multi.txt
+rm -f m4.txt origmac.tr
+ ./ns mmac-test4.tcl .1 > m4.txt && awk -f genstats.awk origmac.tr >> multi.txt
+rm -f m4.txt origmac.tr
+ ./ns mmac-test4.tcl .05 > m4.txt && awk -f genstats.awk origmac.tr >> multi.txt
+rm -f m4.txt origmac.tr
+ ./ns mmac-test4.tcl .0125  > m4.txt && awk -f genstats.awk origmac.tr >> multi.txt
+rm -f m4.txt origmac.tr
+ ./ns mmac-test4.tcl .01 > m4.txt && awk -f genstats.awk origmac.tr >> multi.txt
+rm -f m4.txt origmac.tr
+ ./ns mmac-test4.tcl .004 > m4.txt && awk -f genstats.awk origmac.tr >> multi.txt
+rm -f m4.txt origmac.tr
+ ./ns mmac-test4.tcl .0015> m4.txt && awk -f genstats.awk origmac.tr >> multi.txt
+rm -f m4.txt origmac.tr
+ ./ns mmac-test4.tcl .001 > m4.txt && awk -f genstats.awk origmac.tr >> multi.txt
+rm -f m4.txt origmac.tr

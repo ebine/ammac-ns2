@@ -1,0 +1,6 @@
+area	1000	1000
+node	105	108
+node	207	195
+node	156	248
+node	856	345
+route	0	1	2

@@ -1,0 +1,18 @@
+ ./ns mmac-test3.tcl 1 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flows.txt 
+ rm -f m3.txt mmac3.tr throughput.dat delay.dat
+ ./ns mmac-test3.tcl .2 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flows.txt 
+ rm -f m3.txt mmac3.tr throughput.dat delay.dat
+ ./ns mmac-test3.tcl .1 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flows.txt 
+ rm -f m3.txt mmac3.tr throughput.dat delay.dat
+ ./ns mmac-test3.tcl .05 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flows.txt 
+ rm -f m3.txt mmac3.tr throughput.dat delay.dat
+ ./ns mmac-test3.tcl .0125 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flows.txt 
+ rm -f m3.txt mmac3.tr throughput.dat delay.dat
+ ./ns mmac-test3.tcl .01 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flows.txt 
+ rm -f m3.txt mmac3.tr throughput.dat delay.dat
+ ./ns mmac-test3.tcl .004 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flows.txt 
+ rm -f m3.txt mmac3.tr throughput.dat delay.dat
+ ./ns mmac-test3.tcl .0015 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flows.txt 
+ rm -f m3.txt mmac3.tr throughput.dat delay.dat
+ ./ns mmac-test3.tcl .001 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flows.txt 
+ rm -f m3.txt mmac3.tr throughput.dat delay.dat

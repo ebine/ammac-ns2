@@ -1,0 +1,17 @@
++This is the implementation of our protocol AM-MAC in ns-2.  For more information, please see our paper:
+Collision-Free Asynchronous Multi-Channel Access in Ad Hoc Networks
+
+
++Our implementation is in
+mac/mac-802_11.*
+
++Some scripts are included for calculate the throughput
+runme
+runme3
+
++We still haven't had time to clean up the code for dynamic data channel.  Currently it is hard-coded.
+
+
+
+
+

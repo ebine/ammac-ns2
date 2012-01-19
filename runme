@@ -1,0 +1,4 @@
+ ./ns mmac-test3.tcl 1 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flow.txt
+ ./ns mmac-test3.tcl .2 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flow.txt
+ ./ns mmac-test3.tcl .1 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flow.txt
+ ./ns mmac-test3.tcl 0.5 > m3.txt && awk -f genstats.awk mmac3.tr >> 3flow.txt

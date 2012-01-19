@@ -1,0 +1,3 @@
+M 0.0 nn:3 x:670 y:670 rp:tora
+M 0.0 sc:../mobility/scene/scen-3-test cp:../mobility/scene/cbr-3-test seed:0.0
+M 0.0 prop:Propagation/TwoRayGround ant:Antenna/OmniAntenna
